@@ -21,7 +21,7 @@
 }
 
 .navbar-logo {
-    font-size: 7vh;
+    font-size: 4vh;
     padding: 1.3vh;
     font-weight: 700;
 }
@@ -45,7 +45,7 @@
 
 .navbar-item {
     margin: 0 15px;
-    font-size: 6vh;
+    font-size: 3vh;
     cursor: pointer;
 }
 
@@ -68,7 +68,7 @@
         backdrop-filter: blur(8px);
         height: 30vh;
         padding: 15px;
-        transition: left 0.3s ease;
+        transition: left 2s ease;
     }
 
     .navbar-menu.active {
