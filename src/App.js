@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import './App.css';
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
         <NavBar />
         <AboutMe />
         <Projects />
-        
+        <Contact />
       </div>
   );
 }

@@ -5,7 +5,35 @@ import "../App.css";
 const AboutMe = () => {
     return(
         <section id="about">
-            <h1>About Me</h1>
+            <div>
+                <h1>About Me</h1>
+                <p className="about-content-one">
+                    I am currently pursuing my Bachelor's Degree in Computer Science from
+                    <b> The New Jersey Institute of Technology</b>.
+                    <br />
+                    <br />
+                    The technologies that I have recent experience with include:
+                </p>
+                <ul className="list-of-tech">
+                    <li>JavaScript</li>
+                    <ul className="tech-sub-list">
+                        <li>ReactJS</li>
+                        <ul>
+                            <li>RedwoodJS</li>
+                        </ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <ul>
+                            <li>BootStrap</li>
+                            <li>TailWindCSS</li>
+                        </ul>
+                        <li>C/C++</li>
+                        <li>Python</li>
+                        <li>MongoDB</li>
+                        <li>WSL</li>
+                    </ul>
+                </ul>
+            </div>
         </section>
     );
 }
