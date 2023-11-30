@@ -23,13 +23,19 @@ const Navbar = () => {
 
                 <ul className={`navbar-menu ${mobileMenuOpen ? 'active' : ''}`}>
                     <li className="navbar-item">
-                        <Link to="about" smooth duration={500}>About</Link>
+                        <Link to="about" smooth duration={500} onClick={toggleMobileMenu}>
+                            About Me
+                        </Link>
                     </li>
                     <li className="navbar-item">
-                        <Link to="project" smooth duration={500}>Projects</Link>
+                        <Link to="projects" smooth duration={500} onClick={toggleMobileMenu}>
+                            Projects
+                        </Link>
                     </li>
                     <li className="navbar-item">
-                        <Link to="contact" smooth duration={500}>Contact Me</Link>
+                        <Link to="contact" smooth duration={500} onClick={toggleMobileMenu}>
+                            Contact Me
+                        </Link>
                     </li>
                     <li className="navbar-item">
                         <a href="../public/test.txt" target="_blank" rel="noopener noreferrer">View Resume</a>
