@@ -1,0 +1,26 @@
+:root {
+    --nav-color: rgb(9, 0, 78);
+    --links-color: rgb(32, 243, 151);
+    --bg-color: rgb(34, 34, 34);
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    background-color: var(--links-color);
+    font-size: 3vh;
+    padding: 1vh;
+    border-radius: 2vh;
+}
+#contact a:hover {
+    border-radius: 3vh;
+    transition: ease-in-out 0.4s;
+}
+
+#contact li {
+    padding-bottom: 4vh;
+}
