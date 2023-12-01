@@ -15,7 +15,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; /* Adjust as needed */
+    z-index: 1000;
 }
   
 .navbar-container {
@@ -54,37 +54,13 @@
     cursor: pointer;
 }
 
-.navbar-menu-icon {
-    display: none;
-    font-size: 3vh;
-    cursor: pointer;
-    padding-right: 2vh;
-    z-index: 1100; /* Ensure the icon is above other elements */
-    color: white; /* Ensure enough contrast with the background */
-}
-
 @media screen and (max-width: 768px) {
     .navbar-menu {
         display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 100%; /* Adjust as needed */
-        left: 0;
-        background-color: rgba(7, 0, 58, 0.34);
-        backdrop-filter: blur(8px);
-        height: 30vh;
-        padding: 15px;
-        transition: left 2s ease;
     }
 
-    .navbar-menu.active {
-        display: flex;
-        left: 0;
-    } 
-
     .navbar-logo {
-        font-size: 3vh;
+        font-size: 4vh;
     }
 
     .navbar-menu-icon {

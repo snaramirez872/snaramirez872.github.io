@@ -1,6 +1,7 @@
 :root {
     --scroll-padding: 15vh;
 }
+
 #about,
 #projects,
 #contact {
@@ -21,4 +22,39 @@
 #projects div h1,
 #contact div h1 {
     font-size: 4.5vh;
+}
+
+@media screen and (max-width: 768px) {
+    #about,
+    #projects,
+    #contact {
+        padding: 10vh 2vh 0 2vh;
+        height: 100vh;
+    }
+
+    #about div h1,
+    #projects div h1,
+    #contact div h1 {
+        font-size: 4vh;
+        text-align: center;
+    }
+
+    #about p {
+        text-align: center;
+    }
+    #about .list-of-tech {
+        padding-left: 9vh;
+    }
+    #contact {
+        padding: 41vh 2vh 0 2vh;
+    }
+
+    #contact div ul {
+        padding-top: 5vh;
+    }
+
+    #contact div ul li {
+        text-align: center;
+        padding-right: 5.5vh;
+    }
 }
