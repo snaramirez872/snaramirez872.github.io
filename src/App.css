@@ -1,0 +1,24 @@
+:root {
+    --scroll-padding: 15vh;
+}
+#about,
+#projects,
+#contact {
+    padding-top: var(--scroll-padding);
+    padding-left: 15vh;
+    height: 100vh;
+}
+
+#about div,
+#projects div,
+#contact div {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding);
+    color: white;
+}
+
+#about div h1,
+#projects div h1,
+#contact div h1 {
+    font-size: 4.5vh;
+}
