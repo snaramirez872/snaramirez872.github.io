@@ -8,7 +8,7 @@ test('renders webpage', () => {
   console.log(screen.debug());
 
   // Check if certain elements are present
-  expect(screen.getByText("About Me")).toBeInTheDocument();
-  expect(screen.getByText("Projects")).toBeInTheDocument();
-  expect(screen.getByText("Contact Me")).toBeInTheDocument();
+  expect(screen.getAllByText("Projects")).toBeInTheDocument();
+  expect(screen.getAllByText("Contact Me")).toBeInTheDocument();
+  expect(screen.getAllByText("About Me")).toBeInTheDocument();
 });
