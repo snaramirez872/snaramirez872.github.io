@@ -6,12 +6,12 @@ test('renders learn react link', () => {
   //const linkElement = screen.getByText(/learn react/i);
   //expect(linkElement).toBeInTheDocument();
 
-  const eleOne = screen.getByText(/About Me/)
+  const eleOne = screen.getByText("About Me")
   expect(eleOne).toBeInTheDocument();
 
-  const eleTwo = screen.getByText(/Projects/)
+  const eleTwo = screen.getByText("Projects")
   expect(eleTwo).toBeInTheDocument();
 
-  const eleThree = screen.getByText(/Contact/)
+  const eleThree = screen.getByText("Contact Me")
   expect(eleThree).toBeInTheDocument();
 });
