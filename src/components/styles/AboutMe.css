@@ -6,3 +6,19 @@
 #about div .list-of-tech {
     margin: 5vh 0 0 5vh;
 }
+
+#about div h1 a {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #about div a {
+        display: block;
+        background-color: var(--grad-one);
+        text-decoration: none;
+        color: black;
+        font-size: 3vh;
+        text-align: center;
+        border-radius: 2vh;
+    }
+}
