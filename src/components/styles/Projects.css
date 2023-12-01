@@ -1,0 +1,32 @@
+:root {
+    --nav-color: rgb(9, 0, 78);
+    --links-color: rgb(32, 243, 151);
+    --bg-color: rgb(34, 34, 34);
+}
+
+.proj-table,
+.proj-table td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.proj-table thead {
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+
+}
+.proj-table thead tr td {
+    text-align: center;
+}
+
+#projects a {
+    text-decoration: none;
+    color: var(--links-color);
+}
+.proj-table tr:not(:first-child) {
+    font-size: 1.3rem;
+}
+td {
+    padding: 3vh;
+}
