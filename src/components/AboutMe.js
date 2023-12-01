@@ -6,7 +6,7 @@ const AboutMe = () => {
     return(
         <section id="about">
             <div>
-                <h1>About Me</h1>
+                <h1>About Me | <a href="../../public/resume_copy.pdf" target="_blank"></a></h1>
                 <p className="about-content-one">
                     I am currently pursuing my Bachelor's Degree in Computer Science from
                     <b> The New Jersey Institute of Technology</b>.
