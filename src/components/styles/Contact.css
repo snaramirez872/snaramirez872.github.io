@@ -19,6 +19,7 @@
 #contact a:hover {
     border-radius: 3vh;
     transition: ease-in-out 0.4s;
+    background-color: var(--grad-one-hover);
 }
 
 #contact li {

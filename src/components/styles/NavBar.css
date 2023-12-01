@@ -3,6 +3,7 @@
     --links-color: rgb(32, 243, 151);
     --bg-color: rgb(34, 34, 34);
     --grad-one: rgba(0,243,255,1);
+    --grad-one-hover: rgb(3, 186, 196);
     --grad-two: rgb(62, 125, 218);
     --grad-three: rgb(242, 67, 67);
 }

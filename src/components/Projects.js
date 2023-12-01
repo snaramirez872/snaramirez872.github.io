@@ -7,6 +7,33 @@ const Projects = () => {
         <section id="projects">
           <div>
             <h1>Projects</h1>
+            <ul className="mobile-projects">
+              <li>
+                <a 
+                  href="https://github.com/ppauliuchenka02/bandgeeks-news-app" 
+                  title="GitHub Repo"
+                >
+                  BandGeeks News Application
+                </a>
+                <ul>
+                  <li>A RedwoodJS application that serves as a personal news feed</li>
+                  <li>Class Project for NJIT CS490 - Guided Software Engineering Design</li>
+                </ul>
+              </li>
+              <li>
+                <a 
+                  href="https://ywcccapstone.com/" 
+                  title="NJIT YWCC Capstone Homepage"
+                >
+                  NJIT YWCC Capstone
+                </a> Industry Sponsored Project
+                <ul>
+                  <li>Worked with NJ Courts on one of their projects</li>
+                  <li>Collaborated within a student team</li>
+                  <li>September 2023 to December 2023</li>
+                </ul>
+              </li>
+            </ul>
             <table className="proj-table">
               <thead>
                 <tr>
@@ -43,7 +70,7 @@ const Projects = () => {
                   </td>
                   <td>
                       <ul>
-                        <li>Worked with <a href="http://www.njcourts.gov/" title="NJ Courts Website">New Jersey Courts</a> on their project</li>
+                        <li>Worked with <a href="http://www.njcourts.gov/" title="NJ Courts Website">New Jersey Courts</a> on one of their projects</li>
                         <li><b>Role:</b> Student Intern, Part of Team</li>
                         <li>September 2023 to December 2023</li>
                       </ul>

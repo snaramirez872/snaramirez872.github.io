@@ -45,8 +45,8 @@
     #about .list-of-tech {
         padding-left: 9vh;
     }
-    #contact {
-        padding: 41vh 2vh 0 2vh;
+    #contact div {
+        padding: 0 2vh 0 2vh;
     }
 
     #contact div ul {

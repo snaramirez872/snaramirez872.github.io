@@ -4,6 +4,10 @@
     --bg-color: rgb(34, 34, 34);
 }
 
+.mobile-projects {
+    display: none;
+}
+
 .proj-table,
 .proj-table td {
     border: 1px solid white;
@@ -29,4 +33,14 @@
 }
 td {
     padding: 3vh;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile-projects {
+        display: block;
+    }
+    
+    .proj-table {
+        display: none;
+    }
 }
