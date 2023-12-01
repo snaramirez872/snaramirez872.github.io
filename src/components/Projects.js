@@ -42,7 +42,7 @@ const Projects = () => {
                   </td>
                   <td>
                       <ul>
-                          <li>Worked with <a href="http://www.njcourts.gov/" title="NJ Courts Website">New Jersey Courts</a> on their Project</li>
+                          <li>Worked with <a href="http://www.njcourts.gov/" title="NJ Courts Website">New Jersey Courts</a> on their project</li>
                           <li><b>Role:</b> Student Intern, Part of Team</li>
                           <li>September 2023 to December 2023</li>
                       </ul>

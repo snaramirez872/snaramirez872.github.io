@@ -22,7 +22,7 @@
 
 #projects a {
     text-decoration: none;
-    color: var(--links-color);
+    color: var(--grad-three);
 }
 .proj-table tr:not(:first-child) {
     font-size: 1.3rem;

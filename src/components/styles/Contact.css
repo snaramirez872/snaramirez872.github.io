@@ -11,7 +11,7 @@
 #contact a {
     text-decoration: none;
     color: black;
-    background-color: var(--links-color);
+    background-color: var(--grad-one);
     font-size: 3vh;
     padding: 1vh;
     border-radius: 2vh;
