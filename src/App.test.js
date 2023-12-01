@@ -5,7 +5,18 @@ test('renders webpage', () => {
   render(<App />);
 
   // Check if certain elements are present
-  expect(screen.getAllByText("Projects")).toBeInTheDocument();
-  expect(screen.getAllByText("Contact Me")).toBeInTheDocument();
-  expect(screen.getAllByText("About Me")).toBeInTheDocument();
+  const projectsElements = screen.getAllByText("Projects");
+  projectsElements.forEach((element) => {
+    expect(element).toBeInTheDocument();
+  });
+
+  const contactElements = screen.getAllByText("Contact Me");
+  contactElements.forEach((element) => {
+    expect(element).toBeInTheDocument();
+  });
+
+  const aboutElements = screen.getAllByText("About Me");
+  aboutElements.forEach((element) => {
+    expect(element).toBeInTheDocument();
+  });
 });
