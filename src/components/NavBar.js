@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import { FaBars, FaTimes } from 'react-icons/fa';
 import './styles/NavBar.css';
 
 const Navbar = () => {
@@ -16,10 +15,6 @@ const Navbar = () => {
                 <Link to="about" smooth duration={500} className="navbar-logo">
                     Sean Ramirez
                 </Link>
-
-                <div className="navbar-menu-icon" onClick={toggleMobileMenu}>
-                    {mobileMenuOpen ? <FaTimes /> : <FaBars />}
-                </div>
 
                 <ul className={`navbar-menu ${mobileMenuOpen ? 'active' : ''}`}>
                     <li className="navbar-item">

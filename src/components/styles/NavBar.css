@@ -31,13 +31,6 @@
     cursor: pointer;
 }
 
-.navbar-logo:hover {
-    background: -webkit-linear-gradient(180deg, var(--grad-one) 0%, var(--grad-two) 35%, var(--grad-three));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: ease-in-out 0.4s;
-}
-
 .navbar-menu {
     list-style: none;
     display: flex;
@@ -66,6 +59,8 @@
     font-size: 3vh;
     cursor: pointer;
     padding-right: 2vh;
+    z-index: 1100; /* Ensure the icon is above other elements */
+    color: white; /* Ensure enough contrast with the background */
 }
 
 @media screen and (max-width: 768px) {
