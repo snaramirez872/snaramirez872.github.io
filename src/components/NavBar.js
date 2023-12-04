@@ -33,7 +33,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="navbar-item">
-                        <a href="https://drive.google.com/file/d/1PuHqXkGgEKG4kKpIn6vrwzvXzcuYL1-q/view?usp=sharing" target="_blank">View Resume</a>
+                        <a href="https://drive.google.com/file/d/1pFR8IOJp1J8d3gLn9nF_3rCLk_w9cj-d/view?usp=sharing" target="_blank">View Resume</a>
                     </li>
                 </ul>
             </div>
