@@ -38,6 +38,7 @@ td {
 @media screen and (max-width: 768px) {
     .mobile-projects {
         display: block;
+        font-size: 1.2rem;
     }
     
     .proj-table {

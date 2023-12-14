@@ -21,15 +21,10 @@ const Projects = () => {
                 </ul>
               </li>
               <li>
-                <a 
-                  href="https://ywcccapstone.com/" 
-                  title="NJIT YWCC Capstone Homepage"
-                >
-                  NJIT YWCC Capstone
-                </a> Industry Sponsored Project
+                <a href="https://njcts-njcc-dt2.pegacloud.net/prweb/PRServletPublicAuth/app/capstone-translation-service/tZu9sgxwjr34J3noXRAlyg*/!STANDARD?AppName=CTS&NoticeID=NJCRT1234567890" title="Prototype Web Page">Court Notice Translation Service Prototype</a>
                 <ul>
-                  <li>Worked with NJ Courts on one of their projects</li>
-                  <li>Collaborated within a student team</li>
+                  <li>Worked with NJ Courts to develop a service that translates court documents into more languages</li>
+                  <li>NJIT YWCC Capstone Industry Sponsored Project</li>
                   <li>September 2023 to December 2023</li>
                 </ul>
               </li>
@@ -61,17 +56,14 @@ const Projects = () => {
                 </tr>
                 <tr>
                   <td>
-                    <a 
-                      href="https://ywcccapstone.com/" 
-                      title="NJIT YWCC Capstone Homepage"
-                    >
-                      NJIT YWCC Capstone
-                    </a> Industry Sponsored Project
+                  <a href="https://njcts-njcc-dt2.pegacloud.net/prweb/PRServletPublicAuth/app/capstone-translation-service/tZu9sgxwjr34J3noXRAlyg*/!STANDARD?AppName=CTS&NoticeID=NJCRT1234567890" title="Prototype Web Page">Court Notice Translation Service Prototype</a>
                   </td>
                   <td>
                       <ul>
-                        <li>Worked with <a href="http://www.njcourts.gov/" title="NJ Courts Website">New Jersey Courts</a> on one of their projects</li>
-                        <li><b>Role:</b> Student Intern, Part of Team</li>
+                        <li>Worked with NJ Courts to develop a service to translate court documents into more languages</li>
+                        <li>Uses <a href="https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html" title="TranslateDocument Method Docs">AWS Translate API</a> for the translation of the court nortices</li>
+                        <li><b>Roles: </b>Developer and QA Lead</li>
+                        <li><a href="https://ywcccapstone.com/" title="NJIT YWCC Capstone Homepage">NJIT YWCC Capstone</a> Industry-Sponsored Project</li>
                         <li>September 2023 to December 2023</li>
                       </ul>
                   </td>
