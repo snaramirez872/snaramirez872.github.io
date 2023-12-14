@@ -28,7 +28,7 @@
     text-decoration: none;
     color: var(--grad-three);
 }
-.proj-table tr:not(:first-child) {
+.proj-table tr {
     font-size: 1.3rem;
 }
 td {

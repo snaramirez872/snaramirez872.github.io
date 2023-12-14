@@ -19,9 +19,7 @@ const AboutMe = () => {
                     <li>JavaScript</li>
                     <ul className="tech-sub-list">
                         <li>ReactJS</li>
-                        <ul>
-                            <li>RedwoodJS</li>
-                        </ul>
+                        <li>RedwoodJS</li>
                     </ul>
                     <li>HTML</li>
                     <li>CSS</li>
