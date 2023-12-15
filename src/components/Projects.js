@@ -64,7 +64,7 @@ const Projects = () => {
                         <li>Uses <a href="https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html" title="TranslateDocument Method Docs">AWS Translate API</a> for the translation of the court nortices</li>
                         <li><b>Roles: </b>Developer and QA Lead</li>
                         <li><a href="https://ywcccapstone.com/" title="NJIT YWCC Capstone Homepage">NJIT YWCC Capstone</a> Industry-Sponsored Project</li>
-                        <li>September 2023 to December 2023</li>
+                        <li><b>Recognition: </b> Third Place in Judging Panel 4 at NJIT YWCC Showcase Fall 2023</li>
                       </ul>
                   </td>
                 </tr>
