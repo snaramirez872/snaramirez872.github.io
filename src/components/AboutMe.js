@@ -7,7 +7,7 @@ const AboutMe = () => {
         <section id="about">
             <div>
                 <h1>About Me</h1>
-                <a href="https://drive.google.com/file/d/1pFR8IOJp1J8d3gLn9nF_3rCLk_w9cj-d/view?usp=sharing" target="_blank">View Resume</a>
+                <a href="https://drive.google.com/file/d/198LbuaKU9B7b15KVDh45nmcDu5nKALNM/view?usp=sharing" target="_blank">View Resume</a>
                 <p className="about-content-one">
                     I am currently pursuing my Bachelor's Degree in Computer Science from
                     <b> The New Jersey Institute of Technology</b>.
