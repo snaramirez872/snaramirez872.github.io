@@ -28,6 +28,12 @@ const Projects = () => {
                   <li>September 2023 to December 2023</li>
                 </ul>
               </li>
+              <li>
+                <a href="https://github.com/snaramirez872/ComPartAI" title="ComPartAI GitHub Repo">ComPartAI Chatbot</a>
+                <ul>
+                  <li>An IT Consultant powered by GPT-3.5, ReactJS, and Firebase</li>
+                </ul>
+              </li>
             </ul>
             <table className="proj-table">
               <thead>
@@ -43,7 +49,7 @@ const Projects = () => {
                       href="https://github.com/ppauliuchenka02/bandgeeks-news-app" 
                       title="GitHub Repo"
                     >
-                      BandGeeks News Application
+                      "BandGeeks" News Application
                     </a>
                   </td>
                   <td>
@@ -62,10 +68,21 @@ const Projects = () => {
                       <ul>
                         <li>Worked with NJ Courts to develop a service to translate court documents into more languages</li>
                         <li>Uses <a href="https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html" title="TranslateDocument Method Docs">AWS Translate API</a> for the translation of the court nortices</li>
-                        <li><b>Roles: </b>Developer and QA Lead</li>
+                        <li><b>Roles: </b>Pega Developer and QA Lead</li>
                         <li><a href="https://ywcccapstone.com/" title="NJIT YWCC Capstone Homepage">NJIT YWCC Capstone</a> Industry-Sponsored Project</li>
                         <li><b>Recognition: </b> Third Place in Judging Panel 4 at NJIT YWCC Showcase Fall 2023</li>
                       </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://github.com/snaramirez872/ComPartAI" title="ComPartAI GitHub Repo">ComPartAI Chatbot</a>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>AI Chatbot that functions as an IT Consultant</li>
+                      <li>Ongoing Development using ReactJS, Firebase, and GPT-3.5</li>
+                    </ul>
                   </td>
                 </tr>
               </tbody>
