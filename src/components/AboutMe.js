@@ -7,7 +7,7 @@ const AboutMe = () => {
         <section id="about">
             <div>
                 <h1>About Me</h1>
-                <a href="https://drive.google.com/file/d/1wyw9nqYt4CvE9YW9ZpVVtA5-tEFfjny1/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
+                <a href="https://drive.google.com/file/d/1FCXQ7hJ5MTmXSxri3LKIcxtjz2EaBoik/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
                 <p className="about-content-one">
                     I am a <b>Software Developer</b> that recently graduated with a Bachelor's Degree in Computer Science from 
                     <b> The New Jersey Institute of Technology</b>.
@@ -29,6 +29,7 @@ const AboutMe = () => {
                     <li>Python</li>
                     <li>C/C++</li>
                     <li>MySQL</li>
+                    <li>MongoDB</li>
                     <li>WSL</li>
                 </ul>
             </div>

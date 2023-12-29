@@ -15,7 +15,7 @@
 }
 
 .proj-table thead {
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: white;
     color: black;
 
@@ -29,10 +29,10 @@
     color: var(--grad-three);
 }
 .proj-table tr {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 td {
-    padding: 3vh;
+    padding: 2vh;
 }
 
 @media screen and (max-width: 768px) {
