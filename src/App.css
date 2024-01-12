@@ -1,60 +1,26 @@
-:root {
-    --scroll-padding: 15vh;
+@media only screen and (min-width: 769px) {
+    /* Larger Screens */
+    .mobile-screens {
+        display: none;
+    }
+
+    .master-ball {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        align-items: center;
+        z-index: 123123123;
+    }
+
+    .master-ball button {
+        align-self: flex-start;
+    }
 }
-
-#about,
-#projects,
-#contact {
-    padding-top: var(--scroll-padding);
-    padding-left: 15vh;
-    height: 100vh;
-}
-
-#about div,
-#projects div,
-#contact div {
-    scroll-behavior: smooth;
-    scroll-padding-top: var(--scroll-padding);
-    color: white;
-}
-
-#about div h1,
-#projects div h1,
-#contact div h1 {
-    font-size: 4.5vh;
-}
-
-@media screen and (max-width: 768px) {
-    #about,
-    #projects,
-    #contact {
-        padding: 10vh 2vh 0 2vh;
-        height: 100vh;
-    }
-
-    #about div h1,
-    #projects div h1,
-    #contact div h1 {
-        font-size: 4vh;
-        text-align: center;
-    }
-
-    #about p {
-        text-align: center;
-    }
-    #about .list-of-tech {
-        padding-left: 9vh;
-    }
-    #contact div {
-        padding: 0 2vh 0 2vh;
-    }
-
-    #contact div ul {
-        padding-top: 5vh;
-    }
-
-    #contact div ul li {
-        text-align: center;
-        padding-right: 5.5vh;
+@media only screen and (max-width: 768px) {
+    /* Mobile Screens */
+    .larger-screens {
+        display: none;
     }
 }

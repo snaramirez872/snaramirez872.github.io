@@ -1,0 +1,98 @@
+:root {
+    --box-lw: 8vh;
+    --border-widths: 0.3vh;
+    --content-length: 80vh;
+
+    --menu-hover: black;
+    --menu-mouseOut: grey;
+}
+.home {
+    background: rgba(255,255,255,0.4) url("./pictures/sky.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header p {
+    display: inline-block;
+    font-size: 10vh;
+    font-weight: 700;
+    margin-left: 11vh;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.menu {
+    border-collapse: collapse;
+    margin-left: 11vh;
+    margin-top: 20vh;
+}
+
+.menu .box {
+    background-color: var(--menu-mouseOut);
+    border-top: var(--border-widths) solid grey;
+    width: var(--box-lw);
+    height: var(--box-lw);
+    transition: ease-in-out 0.3s;
+}
+
+.menu .content {
+    font-family: 'consolas';
+    color: var(--menu-mouseOut);
+    font-size: 4vh;
+    width: var(--content-length);
+    transition: ease-in-out 0.3s;
+}
+
+.content div {
+    margin-left: 3vh;
+}
+
+.menu tr {
+    border-top: var(--border-widths) solid var(--menu-mouseOut);
+    border-bottom: var(--border-widths) solid var(--menu-mouseOut);
+    margin-bottom: 5vh;
+    transition: ease-in-out 0.3s;
+}
+
+.menu tr .box .circle {
+    opacity: 0;
+}
+
+.menu tr:hover {
+    cursor: pointer;
+    border-top: var(--border-widths) solid var(--menu-hover);
+    border-bottom: var(--border-widths) solid var(--menu-hover);
+    transition: ease-in-out 0.3s;
+}
+.menu tr:hover .box {
+    background-color: var(--menu-hover);
+    transition: ease-in-out 0.3s;
+}
+.menu tr:hover .content {
+    color: var(--menu-hover);
+    transition: ease-in-out 0.3s;
+}
+.menu tr:hover .box .circle {
+    opacity: 1;
+    background-color: orange;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    /* Add More Animations Later */
+}
+
+.menu tr.active {
+    border-top: var(--border-widths) solid var(--menu-hover);
+    border-bottom: var(--border-widths) solid var(--menu-hover);
+}
+.menu tr.active .box {
+    background-color: var(--menu-hover);
+}
+.menu tr.active .content {
+    color: var(--menu-hover);
+    transition: ease-in-out 0.3s;
+    width: calc(var(--content-length) + 10vh);
+}
