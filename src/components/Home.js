@@ -8,6 +8,7 @@ function Home() {
     
     const openAbout = () => {
         setAbout(true);
+        setProject(false);
     }
 
     const closeAbout = () => {
@@ -16,6 +17,7 @@ function Home() {
     
     const openProject = () => {
         setProject(true);
+        setAbout(false);
     }
 
     const closeProject = () => {
@@ -30,32 +32,27 @@ function Home() {
                     I'm Sean Ramirez.
                 </p>
             </div>
-            <div className="menu-container">
-                <table className="menu">
-                    <tr onClick={ openAbout } className = { isAbout ? 'active' : '' }>
-                        <td className="box"><span className="circle"></span></td>
-                        <td className="content"><div>ABOUT ME</div></td>
-                    </tr>
+            <ul className="menu">
+                <li onClick={openAbout} className={isAbout ? "active" : ""}>
+                    <div className="content"><p>ABOUT ME</p></div>
+                </li>
 
-                    {isAbout && (
-                        <Modal onClose={ closeAbout }>
-                            <p>About Me</p>
-                        </Modal>
-                    )}
+                {isAbout && (
+                    <Modal onClose={closeAbout}>
+                        <p>About Me</p>
+                    </Modal>
+                )}
 
-                    <tr onClick={ openProject } className={ isProject ? 'active' : '' }>
-                        <td className="box"><span className="circle"></span></td>
-                        <td className="content"><div>PROJECTS</div></td>
-                    </tr>
-                    
-                    {isProject && (
-                        <Modal onClose={ closeProject }>
-                            <p>Projects</p>
-                        </Modal>
-                    )}
+                <li onClick={openProject} className={isProject ? "active" : ""}>
+                    <div className="content"><p>PROJECTS</p></div>
+                </li>
 
-                </table>
-            </div>
+                {isProject && (
+                    <Modal onClose={closeProject}>
+                        <p>Projects</p>
+                    </Modal>
+                )}
+            </ul>
         </div>
     );
 }
