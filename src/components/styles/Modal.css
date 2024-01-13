@@ -1,0 +1,114 @@
+.about-header img {
+    aspect-ratio: 1.3/1.5;
+    width: 20vh;
+    border-radius: 50%;
+}
+
+.phanpy {
+    display: flex;
+}
+
+.donphan {
+    margin-left: 3vh;
+}
+
+.about-header .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container .title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 5vh;
+    margin-top: 40vh;
+    margin-bottom: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 5vh;
+    width: 50%;
+    color: white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background: linear-gradient(to bottom, rgba(0,21,102,1) 0%, rgba(0,8,231,1) 100%, rgba(85,106,255,0.9976365546218487) 100%);
+}
+
+.great-ball {
+    background: linear-gradient(to bottom, rgba(0,21,102,1) 0%, rgba(0,8,231,1) 100%, rgba(85,106,255,0.9976365546218487) 100%);
+    width: 160vh;
+    padding: 5vh;
+    border-radius: 5vh;
+    margin-bottom: 4vh;
+    border-top: 1px solid white;
+    border-left: 1px solid rgb(0, 224, 224);
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.links {
+    margin-left: 7vh;
+    margin-top: 17vh;
+}
+
+.links a {
+    text-decoration: none;
+    margin-right: 7vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 5rem;
+    color: white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background: linear-gradient(to bottom, rgba(93,0,0,1) 13%, rgba(255,0,0,0.9976365546218487) 100%);
+    transition: ease-in-out 0.3s;
+}
+
+.links a:hover {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    background: linear-gradient(66deg, rgba(255,0,0,1) 13%, rgba(93,0,0,1) 100%);
+    transition: ease-in-out 0.3s;
+}
+
+.arceus .close {
+    cursor: pointer;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 5rem;
+    color: white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background: linear-gradient(to bottom, rgba(93,0,0,1) 13%, rgba(255,0,0,0.9976365546218487) 100%);
+    transition: ease-in-out 0.3s;
+}
+
+.arceus .close:hover {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    background: linear-gradient(66deg, rgba(255,0,0,1) 13%, rgba(93,0,0,1) 100%);
+    transition: ease-in-out 0.3s;
+}
+
+.about-content p, .about-content ul {
+    color: white;
+    font-size: 3vh;
+}
+
+.links a, .arceus a {
+    font-size: 3vh;
+}

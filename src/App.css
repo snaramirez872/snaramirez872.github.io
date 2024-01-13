@@ -19,6 +19,8 @@
     }
 
     .arceus {
+        margin-bottom: 50vh;
+        font-family: 'consolas';
         animation: oldTV 0.2s ease-out;
     }
 }
@@ -37,5 +39,14 @@
     100% {
         transform: scale(1);
         opacity: 1;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(-7vh);
+    }
+    100% {
+        transform: translateY(0);
     }
 }

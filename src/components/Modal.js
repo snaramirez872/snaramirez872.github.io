@@ -1,11 +1,12 @@
 import React from 'react';
+import './styles/Modal.css';
 
 const Modal = ({onClose, children}) => {
     return(
         <div className="master-ball">
             <div className="arceus">
                 {children}
-                <button onClick={onClose}>Back</button>
+                <a className="close" onClick={onClose}>Back</a>
             </div>
         </div>
     );
