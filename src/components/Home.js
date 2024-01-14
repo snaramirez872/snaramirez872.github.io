@@ -46,12 +46,12 @@ function Home() {
                             </div>
                             <div className="great-ball">
                                 <div className="phanpy">
-                                    <img src={sean} />
+                                    <img src={sean} alt="" />
                                     <div className="donphan">
                                         <div className="links">
-                                            <a href="mailto:snaramirez872@gmail.com" target="_blank">Email</a>
-                                            <a href="https://linkedin.com/in/seanaramirez/" target="_blank">LinkedIn</a>
-                                            <a href="https://drive.google.com/file/d/1FCXQ7hJ5MTmXSxri3LKIcxtjz2EaBoik/view?usp=sharing" target="_blank">View Resume</a>
+                                            <a href="mailto:snaramirez872@gmail.com" target="_blank" rel="noreferrer">Email</a>
+                                            <a href="https://linkedin.com/in/seanaramirez/" target="_blank" rel="noreferrer">LinkedIn</a>
+                                            <a href="https://drive.google.com/file/d/1FCXQ7hJ5MTmXSxri3LKIcxtjz2EaBoik/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
                                         </div>
                                     </div>
                                 </div>
@@ -64,8 +64,8 @@ function Home() {
                                         I have various levels of experience with the following:
                                     </p>
                                     <ul className="skills-list">
-                                        <li><b>Programming: </b>JavaScript(ES6, ReactJS, NodeJS), Python3, CSS(3.0, Bootstrap, TailwindCSS), C/C++, Bash</li>
-                                        <li><b>Products & Services: </b>Git, GitHub, Figma, Firebase, AWS, Windows, UNIX, Pega</li>
+                                        <li><b>Programming: </b>JavaScript (ES6, ReactJS, NodeJS), Python3, CSS (3.0, Bootstrap, TailwindCSS), C/C++, Bash</li>
+                                        <li><b>Products & Services: </b>Git, GitHub, Figma, Firebase, AWS, Windows, WSL, UNIX, Pega</li>
                                     </ul>
                                 </div>
                             </div>
@@ -79,7 +79,16 @@ function Home() {
 
                 {isProject && (
                     <Modal onClose={closeProject}>
-                        <p>Projects</p>
+                        <div className="proj-container">
+                            <div className="proj-title-container">
+                                <p>Projects</p>
+                            </div>
+                            <div className="priemere-ball">
+                                <div className="crobat">
+                                    <p>[Replace with List of Projects]</p>
+                                </div>
+                            </div>
+                        </div>
                     </Modal>
                 )}
             </ul>

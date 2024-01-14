@@ -43,7 +43,7 @@
     border-radius: 5vh;
     margin-bottom: 4vh;
     border-top: 1px solid white;
-    border-left: 1px solid rgb(0, 224, 224);
+    border-left: 1px solid rgb(35, 23, 255);
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
@@ -66,16 +66,13 @@
     border-left: 1px solid white;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
-    background: linear-gradient(to bottom, rgba(93,0,0,1) 13%, rgba(255,0,0,0.9976365546218487) 100%);
+    background-color: black;
     transition: ease-in-out 0.3s;
 }
 
 .links a:hover {
-    border-bottom: 1px solid white;
-    border-right: 1px solid white;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    background: linear-gradient(66deg, rgba(255,0,0,1) 13%, rgba(93,0,0,1) 100%);
+    border: 1px solid rgb(255, 196, 0);
+    background: linear-gradient(to bottom, rgba(237,0,0,1) 0%, rgba(152,0,0,1) 100%);
     transition: ease-in-out 0.3s;
 }
 
