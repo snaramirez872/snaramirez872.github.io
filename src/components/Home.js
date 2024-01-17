@@ -40,7 +40,7 @@ function Home() {
 
                 {isAbout && (
                     <Modal onClose={closeAbout}>
-                        <div class="about-header">
+                        <div className="kadabra">
                             <div className="title-container">
                                 <p className="title">About Me</p>
                             </div>
@@ -57,15 +57,17 @@ function Home() {
                                 </div>
                                 <div className="about-content">
                                     <p>
-                                        I am an upcoming Software Developer who is passionate about all things 
+                                        I am a Software Developer who is passionate about all things Frontend and 
                                         Web Development. I also have a solid foundation in other aspects of Software 
-                                        Engineering such as Data Engineering and other backend development disciplines.
+                                        Engineering such as Data Engineering and other Backend Development disciplines.
                                         <br />
-                                        I have various levels of experience with the following:
+                                        <br />
+                                        <br />
+                                        I have varying levels of experience with the following:
                                     </p>
                                     <ul className="skills-list">
-                                        <li><b>Programming: </b>JavaScript (ES6, ReactJS, NodeJS), Python3, CSS (3.0, Bootstrap, TailwindCSS), C/C++, Bash</li>
-                                        <li><b>Products & Services: </b>Git, GitHub, Figma, Firebase, AWS, Windows, WSL, UNIX, Pega</li>
+                                        <li><b>Programming: </b>JavaScript (ES6, ReactJS, NodeJS), Python3, CSS (3.0, Bootstrap, TailwindCSS), C/C++, SQL, MongoDB, Bash</li>
+                                        <li><b>Products & Services: </b>Git, GitHub, Figma, Firebase, AWS, Windows, WSL, UNIX, Pega Dev Studio</li>
                                     </ul>
                                 </div>
                             </div>
@@ -79,13 +81,28 @@ function Home() {
 
                 {isProject && (
                     <Modal onClose={closeProject}>
-                        <div className="proj-container">
-                            <div className="proj-title-container">
-                                <p>Projects</p>
+                        <div className="kadabra">
+                            <div className="title-container">
+                                <p className="title">Projects</p>
                             </div>
                             <div className="priemere-ball">
                                 <div className="crobat">
-                                    <p>[Replace with List of Projects]</p>
+                                    <p>I was a part of the Development Team for the following projects:</p>
+                                    <ul>
+                                        <li>The BandGeeks News Application | <a href="https://github.com/ppauliuchenka02/bandgeeks-news-app">GitHub Repository</a></li>
+                                        <li>NJ Courts Notice Translation Service | <a href="https://njcts-njcc-dt2.pegacloud.net/prweb/PRServletPublicAuth/app/capstone-translation-service/tZu9sgxwjr34J3noXRAlyg*/!STANDARD?AppName=CTS&NoticeID=NJCRT1234567890">Prototype Link</a></li>
+                                    </ul>
+                                    <p>
+                                        <br />
+                                        <br />
+                                        Currently, I am working on the following solo endeavor(s):
+                                    </p>
+                                    <ul>
+                                        <li>ComPartAI Chatbot | <a href="https://github.com/snaramirez872/ComPartAI">GitHub Repository</a></li>
+                                    </ul>
+                                    <p>
+                                        More Projects I made contributions to can be found here: <a href="https://github.com/snaramirez872">My GitHub</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
