@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Modal from './Modal';
+import AboutPopUp from './AboutPopUp';
+import { Link } from 'react-router-dom';
 import sean from '../components/styles/pictures/profile-picture.jpg';
 import './styles/Home.css';
 
@@ -15,21 +16,12 @@ function Home() {
     const closeAbout = () => {
         setAbout(false);
     }
-    
-    const openProject = () => {
-        setProject(true);
-        setAbout(false);
-    }
-
-    const closeProject = () => {
-        setProject(false);
-    }
 
     return(
         <div className="home">
             <div className="header">
                 <p>
-                    Hello World, <br />
+                    Hello World,<br />
                     I'm Sean Ramirez.
                 </p>
             </div>
@@ -39,7 +31,7 @@ function Home() {
                 </li>
 
                 {isAbout && (
-                    <Modal onClose={closeAbout}>
+                    <AboutPopUp onClose={closeAbout}>
                         <div className="kadabra">
                             <div className="title-container">
                                 <p className="title">About Me</p>
@@ -72,42 +64,15 @@ function Home() {
                                 </div>
                             </div>
                         </div>
-                    </Modal>
+                    </AboutPopUp>
                 )}
 
-                <li id="row" onClick={openProject} className={isProject ? "active" : ""}>
-                    <div className="content"><p>PROJECTS</p></div>
-                </li>
-
-                {isProject && (
-                    <Modal onClose={closeProject}>
-                        <div className="kadabra">
-                            <div className="title-container">
-                                <p className="title">Projects</p>
-                            </div>
-                            <div className="priemere-ball">
-                                <div className="crobat">
-                                    <p>I was a part of the Development Team for the following projects:</p>
-                                    <ul>
-                                        <li>The BandGeeks News Application | <a href="https://github.com/ppauliuchenka02/bandgeeks-news-app">GitHub Repository</a></li>
-                                        <li>NJ Courts Notice Translation Service | <a href="https://njcts-njcc-dt2.pegacloud.net/prweb/PRServletPublicAuth/app/capstone-translation-service/tZu9sgxwjr34J3noXRAlyg*/!STANDARD?AppName=CTS&NoticeID=NJCRT1234567890">Prototype Link</a></li>
-                                    </ul>
-                                    <p>
-                                        <br />
-                                        <br />
-                                        Currently, I am working on the following solo endeavor(s):
-                                    </p>
-                                    <ul>
-                                        <li>ComPartAI Chatbot | <a href="https://github.com/snaramirez872/ComPartAI">GitHub Repository</a></li>
-                                    </ul>
-                                    <p>
-                                        More Projects I made contributions to can be found here: <a href="https://github.com/snaramirez872">My GitHub</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </Modal>
-                )}
+                <Link to="/projects">
+                    <li id="row" className={isProject ? "active" : ""}>
+                        <div className="content"><p>PROJECTS</p></div>
+                    </li>
+                </Link>
+        
             </ul>
         </div>
     );

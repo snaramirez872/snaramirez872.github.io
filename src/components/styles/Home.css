@@ -1,14 +1,16 @@
 :root {
     --box-lw: 6vh;
     --border-widths: 0.2vh;
-    --content-length: 80vh;
+    --content-length: 120vh;
+    --left-align: 20vh;
 
-    --menu-mouseOut: rgb(203, 203, 203);
+    --background-color: rgb(33, 32, 32);
+    --menu-mouseOut: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
+    --hover-gradient: linear-gradient(90deg, rgb(0, 149, 255) 0%, rgba(255,253,72,1) 75%, rgba(255,255,255,0) 100%);
 }
 
 .home {
-    background: url("./pictures/sky.jpg");
-    background-size: cover;
+    background-color: var(--background-color);
     height: 100vh;
     width: 100%;
 }
@@ -17,42 +19,41 @@
     display: inline-block;
     font-size: 10vh;
     font-weight: 700;
-    margin-left: 20vh;
+    margin-left: calc(var(--left-align) + 4vh);
     color: white;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .menu {
-    margin-left: 30vh;
+    margin-left: var(--left-align);
     list-style: none;
 }
 
-.menu #row{
+.menu a {
+    text-decoration: none;
+}
+
+.menu #row {
     display: flex;
     border-bottom: var(--border-widths) solid black;
     width: var(--content-length);
     margin-top: 2vh;
     transition: ease-in-out 0.3s;
-    background-color: rgba(255,255,255,0.7);
+    background: var(--menu-mouseOut);
 }
+
 .menu #row:hover {
     cursor: pointer;
     border-bottom: var(--border-widths) solid white;
-    width: calc(var(--content-length) + 20vh);
+    width: calc(var(--content-length) + 40vh);
     transition: ease-in-out 0.3s;
-    background: linear-gradient(90deg, rgba(0,206,255,1) 0%, rgba(255,253,72,1) 75%, rgba(255,255,255,0) 100%);
-}
-.menu #row.active {
-    background: linear-gradient(90deg, rgba(0,206,255,1) 0%, rgba(255,253,72,1) 75%, rgba(255,255,255,0) 100%);
-    border-bottom: var(--border-widths) solid white;
-    width: calc(var(--content-length) + 20vh);
+    background: var(--hover-gradient);
 }
 
-.menu .box {
-    background-color: var(--menu-mouseOut);
-    border-right: var(--border-widths) solid white;
-    width: var(--box-lw);
-    height: var(--box-lw);
+.menu #row.active {
+    background: var(--hover-gradient);
+    border-bottom: var(--border-widths) solid white;
+    width: calc(var(--content-length) + 40vh);
 }
 
 .menu .content {
@@ -67,6 +68,7 @@
     color: black;
     transition: ease-in-out 0.3s;
 }
+
 .menu #row:hover .content p {
     color: white;
     text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

@@ -1,15 +1,15 @@
 import React from 'react';
-import './styles/Modal.css';
+import './styles/AboutPopUp.css';
 
-const Modal = ({onClose, children}) => {
+const AboutPopUp = ({onClose, children}) => {
     return(
         <div className="master-ball">
             <div className="arceus">
                 {children}
-                <a className="close" onClick={onClose}>Back</a>
+                <button className="close" onClick={onClose}>Back</button>
             </div>
         </div>
     );
 }
 
-export default Modal;
+export default AboutPopUp;
