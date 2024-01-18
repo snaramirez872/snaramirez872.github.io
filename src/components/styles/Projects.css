@@ -76,7 +76,7 @@
     justify-content: center;
     flex-direction: column;
     background: var(--side-gradient);
-    animation: expand ease-in 0.4s;
+    animation: expand ease-in 0.2s;
 }
 
 .side-bar, .sidebar :is(h1, div, button) {
@@ -166,6 +166,6 @@
 }
 
 @keyframes expand {
-    from {width: 0;}
-    to {width: 65vh;}
+    from {width: 0; opacity: 0;}
+    to {width: 65vh; opacity: 1;}
 }
