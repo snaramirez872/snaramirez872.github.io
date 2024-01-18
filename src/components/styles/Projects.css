@@ -1,0 +1,167 @@
+:root {
+    --side-gradient: linear-gradient(to bottom, rgb(10, 10, 10) 0%, rgb(40, 40, 40) 100%);
+    --red-gradient-one: linear-gradient(to bottom, rgba(237,0,0,1) 0%, rgba(152,0,0,1) 100%);
+    --neon-color: #e0dc00;
+}
+
+.dive-ball {
+    background-image: url(./pictures/sky.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.menu-two {
+    margin-left: var(--left-align);
+    list-style: none;
+}
+
+.menu-two #row-two {
+    display: flex;
+    border-bottom: var(--border-widths) solid black;
+    width: var(--content-length);
+    margin-top: 2vh;
+    background: var(--menu-mouseOut);
+}
+
+.menu-two #row-three {
+    border-bottom: var(--border-widths) solid white;
+    width: calc(var(--content-length) + 40vh);
+    margin-top: 2vh;
+    background: var(--hover-gradient);
+}
+
+.menu-two :is(.content-two, .content-three) {
+    display: grid;
+    align-items: center;
+}
+
+.menu-two :is(.content-two #ab, .content-three #proj) {
+    margin-left: 3vh;
+    font-family: "consolas";
+    font-size: 4vh;
+}
+
+.menu-two #ab {
+    color: black;
+}
+
+.menu-two #proj {
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.background {
+    z-index: 123123;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+.side-bar {
+    position: absolute;
+    font-family: 'consolas';
+    z-index: 123123222;
+    left: 0;
+    top: 0;
+    width: 70vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: var(--side-gradient);
+    animation: expand ease-in 0.5s;
+}
+
+.background .side-bar h1 {
+    text-align: center;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background: var(--gradient-blue);
+    color: white;
+    border-radius: 5vh;
+    margin-bottom: 7vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    width: 50%;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs .side-buttons {
+    cursor: pointer;
+    border-radius: 5vh;
+    margin-bottom: 7vh;
+    width: 65vh;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background: black;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.tabs .side-buttons:hover {
+    background: var(--red-gradient-one);
+    box-shadow: 0 0 1vh #fff,
+        0 0 1vh #fff,
+        0 0 2.3vh var(--neon-color),
+        0 0 1.4vh var(--neon-color),
+        0 0 2.3vh var(--neon-color),
+        inset 0 0 0.8vh var(--neon-color); 
+    transition: ease-in-out 0.3s;    
+}
+
+.tabs .side-buttons p {
+    text-align: center;
+    font-size: 3vh;
+}
+
+.home-button {
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 5rem;
+    font-size: 2.5vh;
+    font-weight: 545;
+    color: white;
+    background: var(--red-gradient-one);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transition: ease-in-out 0.3s;  
+}
+
+.home-button:hover {
+    box-shadow: 0 0 0.5vh #fff,
+        0 0 0.5vh #fff,
+        0 0 1.5vh var(--neon-color),
+        0 0 1.4vh var(--neon-color),
+        0 0 1.5vh var(--neon-color),
+        inset 0 0 0.3vh var(--neon-color);
+    transition: ease-in-out 0.3s;  
+}
+
+@keyframes expand {
+    from {width: 0;}
+    to {width: 65vh;}
+}
