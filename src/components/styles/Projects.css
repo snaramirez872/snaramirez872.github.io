@@ -2,6 +2,7 @@
     --side-gradient: linear-gradient(to bottom, rgb(10, 10, 10) 0%, rgb(40, 40, 40) 100%);
     --red-gradient-one: linear-gradient(to bottom, rgba(237,0,0,1) 0%, rgba(152,0,0,1) 100%);
     --neon-color: #e0dc00;
+    --side-bar-width: 70vh;
 }
 
 .dive-ball {
@@ -53,6 +54,7 @@
 
 .background {
     z-index: 123123;
+    display: flex;
     position: fixed;
     top: 0;
     right: 0;
@@ -69,7 +71,7 @@
     z-index: 123123222;
     left: 0;
     top: 0;
-    width: 70vh;
+    width: var(--side-bar-width);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -106,7 +108,7 @@
     align-items: center;
 }
 
-.tabs .side-buttons {
+.tabs #side-buttons {
     cursor: pointer;
     border-radius: 5vh;
     margin-bottom: 7vh;
@@ -120,7 +122,7 @@
     transition: ease-in-out 0.3s;
 }
 
-.tabs .side-buttons:hover {
+.tabs #side-buttons:hover {
     background: var(--red-gradient-one);
     box-shadow: 0 0 1vh #fff,
         0 0 1vh #fff,
@@ -131,9 +133,20 @@
     transition: ease-in-out 0.3s;    
 }
 
-.tabs .side-buttons p {
+.tabs #side-buttons p {
     text-align: center;
     font-size: 3vh;
+}
+
+.tabs #side-buttons.active-two {
+    background: var(--red-gradient-one);
+    box-shadow: 0 0 1vh #fff,
+        0 0 1vh #fff,
+        0 0 2.3vh var(--neon-color),
+        0 0 1.4vh var(--neon-color),
+        0 0 2.3vh var(--neon-color),
+        inset 0 0 0.8vh var(--neon-color); 
+    transition: ease-in-out 0.3s;
 }
 
 .home-button {
@@ -168,4 +181,20 @@
 @keyframes expand {
     from {width: 0; opacity: 0;}
     to {width: 65vh; opacity: 1;}
+}
+
+/* Project Content */
+.project-content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: calc(100% - var(--side-bar-width));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-content h1 {
+    color: white;
 }

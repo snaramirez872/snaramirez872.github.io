@@ -6,14 +6,12 @@ import './styles/Home.css';
 
 function Home() {
     const [isAbout, setAbout] = useState(false);
-    const [isProject, setProject] = useState(false);
     
-    const openAbout = () => {
+    function openAbout() {
         setAbout(true);
-        setProject(false);
     }
 
-    const closeAbout = () => {
+    function closeAbout() {
         setAbout(false);
     }
 
@@ -43,7 +41,7 @@ function Home() {
                                         <div className="links">
                                             <a href="mailto:snaramirez872@gmail.com" target="_blank" rel="noreferrer">Email</a>
                                             <a href="https://linkedin.com/in/seanaramirez/" target="_blank" rel="noreferrer">LinkedIn</a>
-                                            <a href="https://drive.google.com/file/d/1FCXQ7hJ5MTmXSxri3LKIcxtjz2EaBoik/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
+                                            <a href="https://drive.google.com/file/d/1AvzZxAtLXTbVhncN1yY5RvPw6TKToon5/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
                                         </div>
                                     </div>
                                 </div>
@@ -68,7 +66,7 @@ function Home() {
                 )}
 
                 <Link to="/projects">
-                    <li id="row" className={isProject ? "active" : ""}>
+                    <li id="row">
                         <div className="content"><p>PROJECTS</p></div>
                     </li>
                 </Link>
