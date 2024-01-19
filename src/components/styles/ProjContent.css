@@ -1,0 +1,81 @@
+.image-container {
+    display: flex;
+    gap: 2vh;
+}
+
+.features {
+    width: 40vh;
+    margin-right: 10vh;
+}
+
+.proj-one-demo img {
+    height: 30vh;
+}
+
+.proj-one-demo img:nth-child(1) {
+    width: 48vh;
+}
+
+.proj-two-demo img {
+    width: 25vh;
+}
+
+img {
+    margin-bottom: 7vh;
+    border-radius: 2vh;
+}
+
+.features a {
+    text-decoration: none;
+    color: var(--neon-color);
+}
+
+.features a:hover {
+    text-decoration: underline;
+}
+
+.proj-info {
+    font-size: 2.5vh;
+}
+
+.github-repo, 
+.prototype-link {
+    cursor: pointer;
+    font-size: 2.5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-radius: 5vh;
+    color: white;
+    background: var(--red-gradient-one);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transition: ease-in-out 0.3s;
+}
+
+.github-repo:hover, 
+.prototype-link:hover {
+    box-shadow: 0 0 0.5vh #fff,
+        0 0 0.5vh #fff,
+        0 0 1.5vh var(--neon-color),
+        0 0 1.4vh var(--neon-color),
+        0 0 1.5vh var(--neon-color),
+        inset 0 0 0.3vh var(--neon-color);
+    transition: ease-in-out 0.3s;
+}
+
+.status {
+    font-size: 2.5vh;
+}
+
+.proj-one-demo, 
+.proj-two-demo, 
+.proj-three-demo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

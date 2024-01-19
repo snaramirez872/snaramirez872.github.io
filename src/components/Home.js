@@ -41,7 +41,7 @@ function Home() {
                                         <div className="links">
                                             <a href="mailto:snaramirez872@gmail.com" target="_blank" rel="noreferrer">Email</a>
                                             <a href="https://linkedin.com/in/seanaramirez/" target="_blank" rel="noreferrer">LinkedIn</a>
-                                            <a href="https://drive.google.com/file/d/1AvzZxAtLXTbVhncN1yY5RvPw6TKToon5/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
+                                            <a href="https://drive.google.com/file/d/1yc97EAJDTOZdX6oLHBkkONfTdNEY9yst/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
                                         </div>
                                     </div>
                                 </div>

@@ -16,7 +16,9 @@ function App() {
           </Router>
         </div>
         <div className="mobile-screens">
-          <p>This is for Mobile Screens</p>
+          <h1>
+              Sorry! I am currently working on the Mobile Version of this website. 
+          </h1>
         </div>
       </div>
   );

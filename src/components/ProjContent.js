@@ -1,5 +1,5 @@
 import React from 'react';
-//import './styles/ProjContent.css';
+import './styles/ProjContent.css';
 
 const ProjContent = ({children}) => {
     return(

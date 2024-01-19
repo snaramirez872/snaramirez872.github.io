@@ -30,6 +30,19 @@
     .larger-screens {
         display: none;
     }
+
+    .mobile-screens {
+        position: absolute;
+        color: white;
+        background: var(--side-gradient);
+        height: 100vh;
+        width: 100%;
+    }
+
+    .mobile-screens h1 {
+        padding: 5vh;
+        text-align: center;
+    }
 }
 
 @keyframes oldTV {
