@@ -95,7 +95,7 @@ function Projects() {
                                         <p>Features:</p>
                                         <ul>
                                             <li>User Athenitcation</li>
-                                            <li>User Personalization (Icon, Dark Mode, Favorite Articles)</li>
+                                            <li>User Personalization</li>
                                             <li>Search Articles</li>
                                         </ul>
                                     </div>
@@ -117,7 +117,7 @@ function Projects() {
                             <div className="proj-two">
                                 <div className="proj-info">
                                     <div className="features">
-                                        <p>Mobile-First Translation Web Application made with:</p>
+                                        <p>Mobile-First Web Application made with:</p>
                                         <ul>
                                             <li><a href="https://docs-previous.pega.com/application-development/87/dev-studio-overview">Pega Dev Studio</a></li>
                                             <li><a href="https://docs.aws.amazon.com/translate/latest/APIReference/welcome.html">AWS Translate</a> API</li>
@@ -128,7 +128,7 @@ function Projects() {
                                         <p>Features:</p>
                                         <ul>
                                             <li>Launches via scanning a QR Code</li>
-                                            <li>Translation available in 11 languages: English, Croation, Spanish, Tagalog, French, Italian, Hatian Creole, Polish, Portuguese, Swahili, Vietnamese</li>
+                                            <li>Translation available in 11 languages</li>
                                         </ul>
                                     </div>
                                     <div className="proj-two-demo">

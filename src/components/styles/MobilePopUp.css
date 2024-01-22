@@ -1,0 +1,79 @@
+.mobile-popup-container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 123123123;
+}
+
+.pop-up {
+    overflow: hidden;
+    border-radius: 5vh;
+    padding: 3vh;
+    width: 80%;
+    background: var(--gradient-blue);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    animation: oldTV ease-in 0.3s;
+}
+
+.pop-up h1 {
+    margin-bottom: 5vh;
+    font-size: 4vh;
+}
+
+
+.pop-up :is(p, li) {
+    font-size: 2.1vh;
+}
+
+.mobile-close {
+    font-size: 2.5vh;
+    padding: 1vh 3vh;
+    margin-top: 5vh;
+    border-radius: 5vh;
+    color: white;
+    background: var(--red-gradient-one);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* Mobile Projects Pop Up*/
+/* Contact Info Pop Up Mobile */
+.mobile-proj-list,
+.mobile-contact-list {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.mobile-proj-list a,
+.mobile-contact-list a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'consolas';
+    font-size: 2.4vh;
+    padding: 1vh 0vh;
+    border-radius: 2vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+

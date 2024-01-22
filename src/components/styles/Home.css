@@ -16,6 +16,7 @@
     width: 100%;
 }
 
+/* Title */
 .header p {
     display: inline-block;
     font-size: 10vh;
@@ -25,6 +26,7 @@
     text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+/* Menu Options (About Me + Projects) */
 .menu {
     margin-left: var(--left-align);
     list-style: none;

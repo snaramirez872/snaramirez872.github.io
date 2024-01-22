@@ -28,7 +28,7 @@
 .menu-two #row-three {
     border-bottom: var(--border-widths) solid white;
     width: calc(var(--content-length) + 40vh);
-    margin-top: 2vh;
+    margin: 2vh 0 0 0;
     background: var(--hover-gradient);
 }
 
@@ -38,7 +38,7 @@
 }
 
 .menu-two :is(.content-two #ab, .content-three #proj) {
-    margin-left: 3vh;
+    margin: 0 0 3vh 0;
     font-family: "consolas";
     font-size: 4vh;
 }
@@ -143,10 +143,7 @@
 .home-button {
     text-decoration: none;
     cursor: pointer;
-    padding-left: 3vh;
-    padding-right: 3vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding: 1vh 3vh;
     border-radius: 5vh;
     font-size: 2.5vh;
     font-weight: 545;
@@ -186,6 +183,14 @@
     align-items: center;
 }
 
+.proj-one, 
+.proj-two,
+.proj-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-content h1, .proj-info, .status {
     color: white;
 }
@@ -194,6 +199,7 @@
     display: flex;
     font-family: 'consolas';
     background: var(--gradient-blue);
+    width: 85%;
     padding: 5vh;
     border-radius: 5vh;
     border-top: 1px solid white;

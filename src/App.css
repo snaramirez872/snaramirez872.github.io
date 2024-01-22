@@ -32,16 +32,25 @@
     }
 
     .mobile-screens {
-        position: absolute;
-        color: white;
-        background: var(--side-gradient);
-        height: 100vh;
-        width: 100%;
+        background: url(./components/styles/pictures/sky.jpg);
+        background-size: cover;
     }
 
-    .mobile-screens h1 {
-        padding: 5vh;
-        text-align: center;
+    .mobile-layer-bg {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        backdrop-filter: blur(5px);
+        background-color: rgba(50, 50, 50, 0.5);
+        justify-content: center;
+        align-items: center;
+        z-index: 123123123;
     }
 }
 
