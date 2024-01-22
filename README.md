@@ -2,6 +2,8 @@
 
 Hello, World! Welcome to my portfolio website!
 
-I am currently working on the redesign of the site. I will put the link back here when everything is finalized.
+This was developed with ReactJS and CSS3.
+
+The site can be accessed by this [link](https://snaramirez872.github.io/).
 
 Alternatively, you can find me on LinkedIn [@seanaramirez](https://linkedin.com/in/seanaramirez/).

@@ -121,7 +121,7 @@ function App() {
               )}
 
               {/* Link for Resume on Mobile */}
-              <a href="https://drive.google.com/file/d/1yc97EAJDTOZdX6oLHBkkONfTdNEY9yst/view?usp=sharing" target="_blank" rel="noreferrer">
+              <a href="https://drive.google.com/file/d/1uXGMzEjUcjaOEU3QVQx16m1GAXoQyh7r/view?usp=sharing" target="_blank" rel="noreferrer">
                 <button id="resume-button">Resume</button>
               </a>
             </div>

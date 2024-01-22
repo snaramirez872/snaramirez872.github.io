@@ -13,8 +13,10 @@
     text-align: center;
     font-size: 4vh;
     padding: 2vh 5vh;
-    border-radius: 10vh;
+    margin-bottom: -1vh;
+    border-radius: 2.5vh;
     width: 60%;
+    background-color: rgba(0, 179, 255, 0.25);
 }
 
 .mobile-screens .mobile-buttons {
@@ -24,7 +26,7 @@
     justify-content: center;
     border-radius: 3vh;
     height: 60vh;
-    width: 85%;
+    width: 50%;
     gap: 5vh;
 }
 
@@ -46,7 +48,7 @@
 #resume-button {
     text-decoration: none;
     font-size: 3vh;
-    padding: 1vh 7vh;
+    padding: 1vh 5.5vh;
     border-radius: 5vh;
     color: white;
     background: var(--red-gradient-one);
