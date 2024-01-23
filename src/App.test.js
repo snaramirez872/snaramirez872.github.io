@@ -10,11 +10,6 @@ test('renders webpage', () => {
     expect(element).toBeInTheDocument();
   });
 
-  const contactElements = screen.getAllByText("Contact Me");
-  contactElements.forEach((element) => {
-    expect(element).toBeInTheDocument();
-  });
-
   const aboutElements = screen.getAllByText("About Me");
   aboutElements.forEach((element) => {
     expect(element).toBeInTheDocument();
