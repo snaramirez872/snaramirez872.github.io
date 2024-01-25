@@ -76,3 +76,16 @@ img {
     justify-content: center;
     align-items: center;
 }
+
+.proj-two-demo {
+    width: 50%;
+}
+
+.proj-two .proj-info .features {
+    width: 20%;
+    margin-right: 25%;
+}
+
+.proj-two {
+    width: 100%;
+}

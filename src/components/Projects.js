@@ -94,7 +94,7 @@ function Projects() {
                                         </ul>
                                         <p>Features:</p>
                                         <ul>
-                                            <li>User Athenitcation</li>
+                                            <li>User Authentication</li>
                                             <li>User Personalization</li>
                                             <li>Search Articles</li>
                                         </ul>
