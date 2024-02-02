@@ -152,10 +152,10 @@ function Projects() {
                                     <div className="features">
                                         <p>Video Game Organizer made with:</p>
                                         <ul>
+                                            <li>Vite</li>
                                             <li>ReactJS</li>
                                             <li>CSS3</li>
-                                            <li>Firebase</li>
-                                            <li>Twitch <a href="https://api-docs.igdb.com/#getting-started">IGDB</a> API</li>
+                                            <li>Firebase Firestore</li>
                                         </ul>
                                         <p>Features:</p>
                                         <ul>
